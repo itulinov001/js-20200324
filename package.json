@@ -6,7 +6,8 @@
   "scripts": {
     "test:all": "jest",
     "test:jest": "jest --findRelatedTests module-3/**/*.spec.js",
-    "serve": "static-server"
+    "serve": "static-server",
+    "start": "static-server --port 8080 ./module-3/notification"
   },
   "repository": {
     "type": "git",
